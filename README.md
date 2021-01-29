@@ -13,7 +13,7 @@ LastWordGameServer 프로젝트 안에 Client.java가 있는데 이건 server �
 
 Server를 실행 시키기 위해선 argument를 port로 주시기 바랍니다(java Server 9999)   
 
-rmi를 프로젝트의 bin파일에서 실행시켜주시기 바랍니다. 이때 포트는 1099입니다.
+RMI를 Server 프로젝트의 bin파일에서 실행시켜주시기 바랍니다. 이때 포트는 1099입니다. 정확한 내용은 Server의 Server.java에 RMI 키는 코드가 있으니 확인해 주시기 바랍니다. 
 
 LastWordGameServer안에 dictonary.txt에 정답으로 인정되는 단어들의 목록을 적으시면 됩니다. 단어는 공백으로 구분됩니다.
 
