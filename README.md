@@ -15,6 +15,8 @@ Server를 실행 시키기 위해선 argument를 port로 주시기 바랍니다(
 
 rmi를 프로젝트의 bin파일에서 실행시켜주시기 바랍니다. 이때 포트는 1099입니다.
 
+LastWordGameServer안에 dictonary.txt에 정답으로 인정되는 단어들의 목록을 적으시면 됩니다. 단어는 공백으로 구분됩니다.
+
 ## 실행
 
 ![대기실](https://user-images.githubusercontent.com/25100166/106236961-3108f900-6241-11eb-8e17-b6941410a1f0.png)   
