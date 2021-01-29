@@ -9,8 +9,6 @@ LastWordGameServer측에 내부 인증서 파일이 있는데 이거 쓰기 싫�
 Server가 실행될때 자신의 IP를 표시하게 되는데 이때 여러 네트워크 드라이버가 있으면 제대로 된 IP가 맞는지 확인하고 실행시켜주시기 바랍니다.   
 (안되면 네트워크 드라이버 순서 변경해서 IP를 제대로 들고오게 해주시던지 또는 직접 IP를 써도 됩니다.)
 
-LastWordGameServer 프로젝트 안에 Client.java가 있는데 이건 server 테스트 용으로 만들어둔 client이기에 실행 하면 절대!! 안됩니다.   
-
 Server를 실행 시키기 위해선 argument를 port로 주시기 바랍니다(java Server 9999)   
 
 RMI를 Server 프로젝트의 bin파일에서 실행시켜주시기 바랍니다. 이때 포트는 1099입니다. 정확한 내용은 Server의 Server.java에 RMI 키는 코드가 있으니 확인해 주시기 바랍니다. 
