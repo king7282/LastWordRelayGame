@@ -4,7 +4,7 @@
 
 
 ## 사용법
-LastWordGameServer측에 내부 인증서 파일이 있는데 이거 쓰기 싫으면 자신의 인증서 파일 위치를 Server.java, 에 있는 ksName에 반영 시켜주시기 바랍니다.   
+LastWordGameServer측에 내부 인증서 파일이 있는데 이거 쓰기 싫으면 자신의 인증서 파일 위치를 Server의 Server.java, Client의 index.java에 있는 인증서 파일 경로를 바꿔 주시기 바랍니다.   
 
 server가 실행될때 자신의 IP를 표시하게 되는데 이때 여러 어댑터가 있으면 IP가 제대로 표시가 안되니 자기 IP가 맞는지 확인하고 실행시켜주시기 바랍니다.   
 (만약 아니면 어댑터 순서 변경해 주시던지, 직접 IP를 써도 됩니다.)
